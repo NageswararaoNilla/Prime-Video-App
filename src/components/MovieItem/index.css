@@ -1,1 +1,24 @@
-/* Write your CSS here */
+.thumbnail-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.modal-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+}
+
+.close-button {
+  align-self: flex-end;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 25px;
+}

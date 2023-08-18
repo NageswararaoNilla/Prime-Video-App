@@ -1,1 +1,29 @@
-/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #000000;
+}
+
+.slider-container {
+  background-color: transparent;
+  padding: 40px;
+}
+
+.prime-image {
+  width: 100%;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.movies-list-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-left: 20px;
+}
